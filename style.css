@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&display=swap');
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* HEADER */
+
+header {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+    justify-content: flex-start;
+}
+
+.header-top {
+    display: flex;
+    width: 88%;
+    margin: 2.8rem auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: content;
+}
+
+.logo {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin-left: -2px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.nav-link {
+    padding: 1.8rem 2rem;
+    font-size: 1.8rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80vh; 
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-headline {
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.hero-text > p {
+    font-size: 2.3rem;
+    margin: .6rem 0;
+}
+
+.hero-btn {
+    background-color: rgb(253, 184, 55);
+    padding: 1.1rem 2.3rem;
+    font-size: 1.2rem;
+    border-radius: 2.4rem;
+}
