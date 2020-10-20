@@ -168,7 +168,7 @@ i {
 
 .choose-tour {
     background-color: rgb(241, 240, 240);
-    padding: 3rem 0;
+    padding: 8rem 0;
     z-index: -1;
 }
 .choose-tour-headline,
@@ -250,3 +250,122 @@ i {
     border-radius: 2.4rem;
 }
 
+/* MAKE A RESERVATION */
+
+.make-a-reservation {
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.reservation-info {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reservation-info-field {
+    padding: 1rem 1.5rem;
+    margin: 0 2rem;
+    border-radius: 1rem;
+}
+
+.resrvation-btn {
+    width: 20rem;
+    text-align: center;
+    margin: 3rem auto;
+    margin-bottom: 0;
+    background-color: goldenrod;
+    border: 2px solid white;
+    padding: .9rem 2.3rem;
+    font-size: 1.2rem;
+    border-radius: 2.4rem;
+}
+
+/* CONTACT-US */
+
+.contact-us {
+    width: 100%;
+    display: flex;
+}
+
+.image-wrapper {
+    background: url(img/contact-us-img.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 40rem;
+}
+
+.contacts > h3 {
+    padding-top: 1.8rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.contacts {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(48, 76, 106);
+    color: #fff;
+}
+
+.contacts > p {
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+.social p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.social-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-tripadvisor,
+.fa-instagram,
+.fa-facebook-f,
+.fa-vk {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin: 1rem 2.5rem 3.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(33, 39, 39);
+    padding: 1.8rem 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > p {
+    font-size: 1.8rem;
+}
+
+.footer-nav-link {
+    color: #fff;
+    font-size: 1.4rem;
+}
