@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
 
 /* CSS Reset */
 *,
@@ -103,6 +103,7 @@ header {
     font-size: 2.5rem;
     margin: 3rem 0;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .description-text {
@@ -162,3 +163,90 @@ i {
     font-size: 9rem;
     margin-bottom: 1.5rem;
 }
+
+/* CHOOSE A TOUR */
+
+.choose-tour {
+    background-color: rgb(241, 240, 240);
+    padding: 3rem 0;
+    z-index: -1;
+}
+.choose-tour-headline,
+.choose-tour-nav {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.choose-tour-headline {
+    padding-top: 1.8rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.fa-circle {
+    color: rgb(184, 184, 184);
+    font-size: 1.8rem;
+}
+
+.middle-circle {
+    color: rgb(120, 120, 120);
+    margin: 0 .5rem;
+}
+
+.tour-wrapper {
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+    border: 1rem solid goldenrod;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.tour-wrapper::after {
+    position: absolute;
+    top: -2.8rem;
+    right: -13rem;;
+    content: " ";
+    background: url(img/choose-tour-bg.jpg);
+    background-size: 100% 100%;
+    width: 500px;
+    height: 520px;
+    margin: 2px;
+    border-radius: .3rem;
+    z-index: 1;
+}
+
+.tour-name {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 45rem;
+    margin-bottom: 1.8rem;
+}
+
+.tour {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 4rem 3.5rem;
+    line-height: 2rem;
+}
+
+.download-tour {
+    color: goldenrod;
+    margin: 2.3rem 0;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.order-a-tour-btn {
+    width: 20rem;
+    text-align: center;
+    background-color: rgb(253, 184, 55);
+    padding: .9rem 2.3rem;
+    font-size: 1.2rem;
+    border-radius: 2.4rem;
+}
+
