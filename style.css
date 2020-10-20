@@ -85,3 +85,80 @@ header {
     font-size: 1.2rem;
     border-radius: 2.4rem;
 }
+
+/* DESCRIPTION */
+.description {
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-headline,
+.description-text {
+    text-align: center;
+}
+
+.description-headline {
+    font-size: 2.5rem;
+    margin: 3rem 0;
+    font-weight: 500;
+}
+
+.description-text {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    font-weight: 400;
+}
+
+.first-text {
+    margin-bottom: 2.5rem;
+}
+
+.description-points {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 0;
+    position: relative;
+}
+
+.description-points:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1rem;
+    top: -3rem;
+    width: 100%;
+    background-color: rgb(224, 201, 141);
+}
+.description-points p {
+    margin-top: 1rem;
+}
+.compass::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 25%;
+    height: 1rem;
+    top: -3rem;
+    left: 22.5rem;
+    background-color: goldenrod; 
+}
+
+.compass > i {
+    color: goldenrod;
+}
+.camping,
+.compass,
+.plane,
+.weather {
+    width: 25%;
+    text-align: center;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+i {
+    font-size: 9rem;
+    margin-bottom: 1.5rem;
+}
